@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Imagens</title>
+    <link rel="stylesheet" href="grids.css">
+    <style>
+        .row{
+          margin-bottom:  10px; 
+        }
+        .border{
+            border: 1px solid #313131;
+        }
+
+        .coluna-imagem2{
+            height: 100px;
+        }
+        .coluna-imagem3{
+            padding: 20px;
+        }
+        .borda-imagem{
+            border: 10px solid blue;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-12 border"> 
+            <a href="index.html">Voltar</a>
+                <h1>Imagens</h1></div>
+        </div>
+        
+        <div class="row gap-1">
+            <div class="col-4 border">
+                <img src="imagens/OIP.webp" class="img-responsive" alt="">
+            </div>
+            <div class="col-8 border">Descrição da Imagem</div>
+        </div>
+        <div class="row gap-1">
+            <div class="col-4 coluna-imagem2 border">
+                <img src="imagens/OIP.webp" class="img-fill" alt="">
+            </div>
+            <div class="col-8">
+                Imagem com a classe para ocupar 100% do espaço
+            </div>
+        </div>
+
+          <div class="row gap-1">
+            <div class="col-4 border coluna-imagem3">
+                <img src="imagens/OIP.webp" class="img-responsive borda-imagem" alt="">
+            </div>
+            <div class="col-8 border">Descrição da Imagem</div>
+          </div>
+    </div>    
+</body>
+</html>

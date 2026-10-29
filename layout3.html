@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 1</title>
+    <link rel="stylesheet" href="grids.css">
+     <style>
+        .topo{
+            border: 1px solid black;
+            margin-bottom: 5px;
+            height: 80px;
+        }
+        .colunaA{
+            border: 1px solid black;
+            height: 200px;
+            margin-bottom: 5px;
+        }
+
+        .colunaB{
+            border: 1px solid black;
+            height: 200px;
+        }
+         
+        .colunaC{
+            border: 1px solid black;
+            height: 200px;
+        }
+
+        .colunaD{
+            border: 1px solid black;
+            height: 200px;
+        }
+
+
+        .rodape{
+            border: 1px solid black;
+        }
+
+     </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-12 topo">
+                <h1>Banner</h1>
+            </div>
+        </div>
+        <div class="row gap-1">
+            <div class="col-3 colunaA">Coluna A</div>
+            <div class="col-3 colunaB">Coluna B</div>
+            <div class="col-3 colunaC">Coluna C</div>
+            <div class="col-3 colunaD">Coluna D</div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 rodape">Rodapé</div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
